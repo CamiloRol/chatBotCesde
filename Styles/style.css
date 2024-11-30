@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(../Resources/Background-Magenta.png) no-repeat fixed ;
+    background-position: center;
+    background-size: cover;
+}
+
+#First-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.chat-container {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+.message {
+    margin: 5px 0;
+}
+.message.user {
+    text-align: right;
+    color: #09084e;
+}
+.message.bot {
+    text-align: left;
+    color: #03a9f4;
+}
+.input-container {
+    display: flex;
+}
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin-right: 10px;
+}
+.input-container button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #03a9f4;
+    color: white;
+    cursor: pointer;
+}
+
+
