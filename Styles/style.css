@@ -9,6 +9,20 @@ body {
     background: url(../Resources/Background-Magenta.png) no-repeat fixed ;
     background-position: center;
     background-size: cover;
+   
+}
+
+
+.bot-container img{
+    width: 100%;
+    margin-left: 20%;
+
+}
+.bot-container{
+    align-items: center;
+    display: flex;
+   
+    
 }
 
 #First-section{
@@ -22,8 +36,23 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+    
 }
+
+/* top part container */
+
+.top-part{
+
+    height: 100px;
+    background: #f3077d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+
+  }
+
+
 .chat-box {
     height: 300px;
     overflow-y: auto;
@@ -50,14 +79,14 @@ body {
     flex: 1;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #333;
+    border: 1px solid #250c23;
     margin-right: 10px;
 }
 .input-container button {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #03a9f4;
+    background-color: #6235aa;
     color: white;
     cursor: pointer;
 }
